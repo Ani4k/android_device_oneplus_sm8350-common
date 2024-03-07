@@ -343,6 +343,9 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat \
     libprotobuf-cpp-lite-3.9.1-vendorcompat \
     librmnetctl
+    
+# Scudo
+PRODUCT_USE_SCUDO := true
 
 # Sensors
 PRODUCT_PACKAGES += \
